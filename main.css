@@ -1,0 +1,48 @@
+/* Reset some default browser styles */
+body,
+h1,
+p,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Make a background color */
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Center text in the header */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+}
+
+/* Style for the paragraph text */
+p {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* Style buttons */
+button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #888;
+    color: #fff;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
